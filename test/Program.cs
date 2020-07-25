@@ -35,7 +35,7 @@ namespace test
                 case 2:
                     Console.WriteLine("Ban muon nhap bao nhieu sinh vien");
                     int svn = Convert.ToInt32(Console.ReadLine());
-                    for (int i =0; i <svn; i++)
+                    for (int i =0; i < svn; i++)
                     {
                         Console.WriteLine("Nhap vao id sinh vien thu {0}",i);
                         id[i] = Convert.ToInt32(Console.ReadLine());
@@ -54,7 +54,7 @@ namespace test
                 case 3:
                     Console.WriteLine("Nhap vao id sinh vien can sua");
                     int Id = Convert.ToInt32(Console.ReadLine());
-                    for (int i =0; i< Max; i++)
+                    for (int i =0; i < Max; i++)
                     {
                         if (id[i] == Id)
                         {
@@ -73,7 +73,7 @@ namespace test
                     {
                         if (id[i] == Id)
                         {
-                            for (int j = i; j<Max -1; j++)
+                            for (int j = i; j < Max -1; j++)
                             {
                                 id[j] = id[j + 1];
                                 name[j] = name[j + 1];
